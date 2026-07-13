@@ -1,7 +1,6 @@
 /* === BASE === */
 * {
     margin: 0;
-    box-sizing: border-box;
 }
 .layout {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -22,9 +21,17 @@
 .u-grid {
     display: grid;
 }
-.u-card-borda-roxa {
+.u-card-borda-escura {
     border: 3px solid #15064d;
     box-sizing: border-box;
+    border-radius: 1rem;
+}
+.u-card-borda-roxa {
+    border: 3px solid #9331d4;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+.u-border-radiu {
     border-radius: 1rem;
 }
 
@@ -49,9 +56,6 @@
     align-items: center;
     background-color: #fff;
     padding: 15px 20px;
-    border: 5px solid #b919b9;
-    box-sizing: border-box;
-    border-radius: 3rem;
     gap: 1rem;
 }
 
@@ -114,12 +118,10 @@
 .servicos__titulo {
     grid-column: 2;
     grid-row: 1;
-    text-align: center;
     gap: 2rem;
 }
 .servicos__subTitulo {
     grid-column: 1/-1;
-    text-align: center; 
     max-width: 100%;
     margin: 0 auto;   
 }
@@ -154,17 +156,14 @@
     flex-direction: column;
     gap: 0.3rem;
     padding: 10%;
-    border-radius: 1rem;
 }
 .form--fundo-roxo{
     background-color: #7e087e91;
 }
 .form__input {
-    border-radius: 1rem;
     padding: 1rem;
 }
 .form__textarea {
-    border-radius: 1rem;
     padding: 2rem;
     margin-bottom: 1rem;
 }

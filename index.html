@@ -29,7 +29,7 @@
     </header>
 
     <main class="layout__main u-flex">
-        <section id="casa" class="section u-flex">
+        <section id="casa" class="section u-flex u-card-borda-roxa">
             <h2 class="u-text-center">Transformamos ideia em experiencias memoraveis</h2>
             <p class="u-text-center">Agencia criativa especializada em desing, tecnologia e estrategia para marcas que querem se destacar no mundo digitals</p>
             
@@ -43,7 +43,7 @@
             <a href="#contatos" class="u-text-center">Vamos criar algo juntos</a>
         </section>
         
-        <section id="sobre" class="section u-flex">
+        <section id="sobre" class="section u-flex u-card-borda-roxa">
             <h2 class="u-text-center">Sobre Nós</h2>
             <p class="u-text-center">Somos uma agência criativa especializada em transformar marcas em experiências digitais marcantes.
             Unimos estratégia, design e tecnologia para desenvolver soluções que conectam pessoas, fortalecem identidades e impulsionam resultados.
@@ -59,11 +59,11 @@
             </ul>
         </section>
         
-        <section id="servicos" class="section servicos u-grid ">
-            <h2 class="servicos__titulo">Serviços</h2>
+        <section id="servicos" class="section servicos u-grid u-card-borda-roxa">
+            <h2 class="servicos__titulo u-text-center">Serviços</h2>
             <p class="servicos__subTitulo u-text-center ">Oferecemos uma ampla gama de serviços para ajudar sua marca a se destacar no mundo digital.</p>
             <br>
-            <div class="servicos__design u-card-borda-roxa">
+            <div class="servicos__design u-card-borda-escura">
             <h3 class="u-text-center u-pb">Design Grafico</h3>
             <ul>
                 <li>Criação de identidades visuais.</li>
@@ -74,7 +74,7 @@
             </ul>
             </div>
             
-            <div class="servicos__desenvolvimento u-card-borda-roxa">
+            <div class="servicos__desenvolvimento u-card-borda-escura">
             <h3 class="u-text-center u-pb">Desenvolvimento Web</h3>
             <ul>
                 <li>Criação de sites modernos, rápidos e responsivos.</li>
@@ -85,7 +85,7 @@
             </ul>
             </div>
     
-            <div class="servicos__branding u-card-borda-roxa">
+            <div class="servicos__branding u-card-borda-escura">
             <h3 class="u-text-center u-pb">Branding</h3>
             <ul>
                 <li>Construção e fortalecimento de marcas.</li>
@@ -97,13 +97,13 @@
             </div>
         </section>
         
-        <section id="depoimentos" class="section u-flex">
+        <section id="depoimentos" class="section u-flex u-card-borda-roxa">
             <h2 class="u-text-center">Depoimentos</h2>
             <p class="u-text-center">Veja o que nossos clientes dizem sobre nós:</p>
             
             <div class="depoimentos__lista">
 
-            <div class="depoimentos__item u-card-borda-roxa">
+            <div class="depoimentos__item u-card-borda-escura">
                 <h3 class="u-text-center u-pb">Mariana Duarte — Empreendedora</h3>
                 <p class="u-text-center">"A equipe da agência superou todas as minhas expectativas.
                     Eles entenderam exatamente o que eu precisava e transformaram minha marca em algo profissional e cheio de personalidade.
@@ -111,14 +111,14 @@
                     Recomendo de olhos fechados."</p>
             </div>
             
-            <div class="depoimentos__item u-card-borda-roxa ">
+            <div class="depoimentos__item u-card-borda-escura">
                 <h3 class="u-text-center u-pb">Rafael Moreira — Diretor de Marketing</h3>
                 <p class="u-text-center">"Trabalhar com essa agência foi um divisor de águas para nossa presença digital.
                     O branding ficou impecável e o design das campanhas trouxe um aumento real no engajamento.
                     Eles são criativos, organizados e entregam tudo com uma qualidade acima da média."</p>
             </div>
             
-            <div class="depoimentos__item u-card-borda-roxa">
+            <div class="depoimentos__item u-card-borda-escura">
                 <h3 class="u-text-center u-pb" >Camila Ferreira — Proprietária de Loja Online</h3>
                 <p class="u-text-center">"Eu precisava de uma identidade visual forte e um site que realmente convertesse.
                     A agência entregou exatamente isso. O atendimento é excelente, o processo é transparente e o resultado final ficou incrível.
@@ -129,22 +129,22 @@
 
         </section>
         
-        <section id="contatos" class="section contatos u-flex">
+        <section id="contatos" class="section contatos u-flex u-card-borda-roxa">
             <h2 class="u-text-center">Contate-nos</h2>
             <p class="u-text-center">Estamos prontos para transformar sua ideia em realidade. Entre em contato conosco e vamos criar algo incrível juntos!</p>
             
-            <form action="/enviar" method="post" class="form form--fundo-roxo u-text-center u-card-borda-roxa u-flex">
+            <form action="/enviar" method="post" class="form form--fundo-roxo u-text-center u-card-borda-escura u-flex u-border-radio">
                 <label for="nome">Diga seu nome:</label>
-                <input type="text" id="nome" name="nome" class="form__input" required>
+                <input type="text" id="nome" name="nome" class="form__input u-border-radiu" required>
                 <br>
                 <label for="email">Digite seu email:</label>
-                <input type="email" id="email" name="email" class="form__input" required>
+                <input type="email" id="email" name="email" class="form__input u-border-radiu" required>
                 <br>
                 <label for="numero">Digite seu numero:(opcional)</label>
-                <input type="tel" id="numero" name="numero" class="form__input">
+                <input type="tel" id="numero" name="numero" class="form__input u-border-radiu">
                 <br>
                 <label for="mensagem">Digite sua mensagem:</label>
-                <textarea maxlength="200" id="mensagem" name="mensagem" class="form__textarea" required></textarea>
+                <textarea maxlength="200" id="mensagem" name="mensagem" class="form__textarea u-border-radiu" required></textarea>
                 <button type="submit" class="form__btn form__btn--verde-claro form__btn--verde-agua form__btn--verde-dark">Enviar</button>
              </form>
              
